@@ -19,7 +19,6 @@ This is a Hardhat project that provides an interactive command-line interface (C
 
 If you encounter permission issues while installing dependencies, run the following command in comment promt:
 
-    ```
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 This allows scripts to execute temporarily without changing system-wide security settings.
@@ -32,8 +31,7 @@ Installation
 
    ```
    npm install
-
-Usage
+### **Steps for Installation & Runzz
 
 Compile Contracts
 
