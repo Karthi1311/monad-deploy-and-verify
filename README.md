@@ -31,11 +31,10 @@ Installation
 
    ```
    npm install
+   
 ### **Steps for Installation & Run**
 
 Compile Contracts
-
-To compile the ERC‑20 contract, run:
 
     npm run compile
 
@@ -45,15 +44,22 @@ To start the interactive CLI for deployment and automatic verification, run:
 
     npm run deploy
 
-You will be prompted to:
+###You will be prompted to:
 
-Enter Token Name (required)
+-Enter Token Name (required)
 
-Enter Token Symbol (required)
+-Enter Token Symbol (required)
 
-Enter Total Supply (defaults to 100M if left empty)
+-Enter Total Supply (defaults to 100M if left empty)
 
-Select a Wallet from stored private keys (or add a new one)
+-Select a Wallet from stored private_keys.jsom 
+ format 
+ 
+     [
+     "privatekey1",
+     "privatekey2",
+     "privatekey3"
+     ]
 
 Once confirmed, the token is deployed on the Monad testnet, automatically verified, and saved to verified_token.txt.
 
