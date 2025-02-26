@@ -1,6 +1,6 @@
 const hre = require("hardhat");
 const fs = require("fs");
-const inquirer = require("inquirer").default; // Use default export
+const inquirer = require("inquirer").default;
 
 // ANSI color codes
 const reset = "\x1b[0m";
@@ -82,7 +82,6 @@ async function deployToken() {
 
   console.log(`${cyan}\n⏳ Deploying...${reset}`);
 
-  // Set PRIVATE_KEY in process.env for Hardhat.
   process.env.PRIVATE_KEY = deployerKey;
 
   // Create provider and wallet.
