@@ -31,7 +31,7 @@ Installation
 
    ```
    npm install
-   
+ 
 ### **Steps for Installation & Run**
 
 Compile Contracts
