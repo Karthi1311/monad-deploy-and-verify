@@ -67,7 +67,7 @@ Exiting
 
 When finished, select the Exit option from the menu.
 
-Notes
+## Notes:
 
 Private Keys: Private keys are stored locally in private_keys.json. Keep this file secure.
 
