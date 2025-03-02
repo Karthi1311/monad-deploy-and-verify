@@ -44,7 +44,7 @@ To start the interactive CLI for deployment and automatic verification, run:
 
     npm run deploy
 
-###You will be prompted to:
+### You will be prompted to:
 
 -Enter Token Name (required)
 
